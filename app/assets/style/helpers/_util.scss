@@ -33,11 +33,25 @@
 {
     @include bg-gradient(97deg);
 }
+.bg-gradient-102
+{
+    @include bg-gradient(102deg);
+}
 
 .hover-black:hover{
     color: #000 !important;
 }
 
+.z-index-0{
+    z-index: 0;
+}
 .z-index-1{
     z-index: 1;
+}
+.z-index-2{
+    z-index: 2;
+}
+
+.top-n10{
+    top: -10px;
 }

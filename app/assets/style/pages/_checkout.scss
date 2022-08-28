@@ -1,0 +1,49 @@
+.checkout-progress-dot
+{
+    color: $gray1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:-10px;
+
+    .content
+    {   
+        margin-top: 5px;
+        margin-bottom: 11px;
+        color: $gray1;
+        z-index: 2;
+        font-size: 12px;
+    }
+
+    &::before
+    {
+        content:"";
+        position: absolute;
+
+        width: 19px;
+        height: 19px;
+        border: 1px solid $gray1;
+        border-radius: 50%;
+        background-color: $dark2;
+        
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+}
+
+
+.checkout-progress-dot-bar{
+    .active{
+        color: $primary;
+
+        .content{
+            color: #fff;
+        }
+
+        &::before{
+            border-color: $primary;
+            background-color: $primary;
+        }
+    }
+}
