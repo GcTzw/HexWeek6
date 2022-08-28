@@ -1,0 +1,3 @@
+@mixin bg-gradient($deg :104deg, $c1 :$secondary, $c2 :$primary) {
+    background: linear-gradient($deg, $c1, $c2);
+}
