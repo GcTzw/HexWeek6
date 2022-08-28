@@ -2,3 +2,27 @@
     width: 174px;
     height: 42px;
 }
+
+.navbar {
+    position: relative;
+  }
+  
+  .navbar::before {
+    content: "";
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #62DB54;
+  }
+  
+  .navbar::after {
+    content: "";
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #09ACF5;
+  }
