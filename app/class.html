@@ -8,7 +8,7 @@ current: index
     <div class="container-lg">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
-                <ul class="d-flex text-white list-unstyled mt-7 mb-0">
+                <ul class="d-flex text-white list-unstyled mt-7 mb-0 course-class-list">
                     <li class=""><a href="#" class="btn btn-outline-light py-3 px-5">所有課程</a></li>
                     <li class="ms-3"><a href="#" class="btn btn-outline-light py-3 px-5">行動應用開發</a></li>
                     <li class="ms-3"><a href="#" class="btn btn-outline-light py-3 px-5">資料庫/資料科學</a></li>
@@ -18,11 +18,11 @@ current: index
                 </ul>
             </div>
 
-            <div class="col-12 col-lg-10 mt-5 mt-lg-8">
+            <ul class="col-12 col-lg-10 mt-5 mt-lg-8 list-unstyled">
                 <!--第一區塊-->
-                <section>
+                <li>
                     <div class="card bg-dark2 p-lg-8 p-5">
-                        <div class="d-flex justify-content-between flex-column flex-lg-row">
+                        <div class="row justify-content-between flex-lg-row">
                             <div class="col-xl-10 col-lg-9 col-12 text-white px-0">
                                 <div class="d-flex flex-column flex-lg-row">
                                     <div class="d-flex flex-column align-items-center">
@@ -55,12 +55,12 @@ current: index
                             </div>
                         </div>
                     </div>
-                </section>
+                </li>
 
                 <!--第二區塊-->
-                <section>
+                <li>
                     <div class="card bg-dark2 p-lg-8 p-5 mt-5 mt-lg-6">
-                        <div class="d-flex justify-content-between flex-column flex-lg-row">
+                        <div class="row justify-content-between flex-lg-row">
                             <div class="col-xl-10 col-lg-9 col-12 text-white px-0">
                                 <div class="d-flex flex-column flex-lg-row">
                                     <div class="d-flex flex-column align-items-center">
@@ -93,12 +93,12 @@ current: index
                             </div>
                         </div>
                     </div>
-                </section>
+                </li>
 
                 <!--第三區塊-->
-                <section>
+                <li>
                     <div class="card bg-dark2 p-lg-8 p-5 mt-5 mt-lg-6">
-                        <div class="d-flex justify-content-between flex-column flex-lg-row">
+                        <div class="row justify-content-between flex-lg-row">
                             <div class="col-xl-10 col-lg-9 col-12 text-white px-0">
                                 <div class="d-flex flex-column flex-lg-row">
                                     <div class="d-flex flex-column align-items-center">
@@ -131,12 +131,12 @@ current: index
                             </div>
                         </div>
                     </div>
-                </section>
+                </li>
 
                 <!--第四區塊-->
-                <section>
+                <li>
                     <div class="card bg-dark2 p-lg-8 p-5 mt-5 mt-lg-6">
-                        <div class="d-flex justify-content-between flex-column flex-lg-row">
+                        <div class="row justify-content-between flex-lg-row">
                             <div class="col-xl-10 col-lg-9 col-12 text-white px-0">
                                 <div class="d-flex flex-column flex-lg-row">
                                     <div class="d-flex flex-column align-items-center">
@@ -169,57 +169,10 @@ current: index
                             </div>
                         </div>
                     </div>
-                </section>
+                </li>
                     
-            </div>
+            </ul>
         </div>
     </div>
 </div>
   
-<!-- Modal -->
-<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content bg-dark2 text-white">
-            <div class="mt-5 mx-0 px-5 d-flex">
-                <h4 class="mx-auto px-0 modal-title text-center fw-bold" id="exampleModalLabel">登入</h4>
-                <a href="#" class="text-white me-0 px-0 d-flex justify-content-end align-items-center" data-bs-dismiss="modal" aria-label="Close">
-                    <span class="material-symbols-outlined">
-                        close
-                    </span>
-                </a>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-6 mt-6">
-                    <div class="mb-5 text-gray1">
-                        <label for="txtMail" class="form-label">信箱</label>
-                        <input type="text" class="form-control bg-dark1 py-2 px-3" id="txtMail" placeholder="請輸入信箱">
-                    </div>
-                    <div class="text-gray1">
-                        <label for="txtPwd" class="form-label">密碼</label>
-                        <input type="text" class="form-control bg-dark1 py-2 px-3" id="txtPwd" placeholder="請輸入密碼">
-                    </div>
-                    <a href="" class="bg-gradient-97 d-block py-2 mt-5 text-white text-center rounded hover-black">登入</a>
-                </div>
-            </div>
-            <div class="mt-8 mb-8 d-flex justify-content-center">
-                <div class="col-6">
-                    <div class="d-flex justify-content-center course-model-footer-title">
-                        <p class="mb-0 px-3 bg-dark2 z-index-1">其他登入方式</p>
-                    </div>
-                    <a href="#" class="btn btn-outline-white d-block mt-3 py-2 px-6">
-                        <div class="d-flex">
-                            <img class="wh-24" src="./assets/images/icon_fb.svg" alt="FB icon">
-                            <span class="mx-auto">Facebook 登入</span>
-                        </div>
-                    </a>
-                    <a href="#" class="btn btn-outline-white d-block text-center mt-5 py-2 px-6">
-                        <div class="d-flex">
-                            <img class="wh-24" src="./assets/images/icon_google.svg" alt="google icon">
-                            <span class="mx-auto">Google 登入</span>
-                        </div>                       
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
